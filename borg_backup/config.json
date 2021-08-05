@@ -4,7 +4,7 @@
   "slug": "borg_backup",
   "description": "BorgBackup as a Hassio Add-On",
   "url": "https://github.com/yeah/hassio-borg_backup",
-  "startup": "before",
+  "startup": "initialize",
   "boot": "auto",
   "map": [
     "backup"
